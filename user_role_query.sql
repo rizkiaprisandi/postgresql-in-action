@@ -1,0 +1,1 @@
+select ur.id, ur.user_id, u.nama, ur.role_id, mr.role from public.user_role ur join public.m_user u on u.id = ur.user_id join public.m_role mr on mr.id = ur.role_id
